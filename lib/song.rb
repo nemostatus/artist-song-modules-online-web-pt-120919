@@ -7,7 +7,7 @@ class Song
   @@songs = []
 
   def initialize
-   include Memorable::InstanceMethods
+  
   end
 extend Findable
   #def self.find_by_name(name)
