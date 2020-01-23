@@ -7,7 +7,7 @@ class Artist
   @@artists = []
 
   def initialize
-    extend Memorable::InstanceMethods
+    include Memorable::InstanceMethods
  
     @songs = []
   end
